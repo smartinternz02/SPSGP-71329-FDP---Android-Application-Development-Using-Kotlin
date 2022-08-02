@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/MyQuizApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable-v24/correct_option_border_bg.xml" value="0.24871794871794872" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable-v24/wrong_option_border_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/bh.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/default_option_border_bg.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/fhg.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/result_page.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/round.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/selected_option_background.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/layout/activity_quiz_questions.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/layout/activity_result.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyQuizApp/app/src/main/res/layout/result_page.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuizQuestionsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/emptyMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="Poty">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=""
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            tools:text="What Country Does The Flag Belong To?">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/tv_QuizImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Quiz Image"
+            tools:src="@drawable/ic_flag_of_germany"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            >
+        <ProgressBar
+            android:id="@+id/tv_progressBar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:minHeight="50dp"
+            android:progress="5"
+            android:indeterminate="false"/>
+            <TextView
+                android:id="@+id/tv_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+               android:textSize="14sp"
+                android:text="0/9"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/optionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/default_option_border_bg"
+                tools:text="Poty"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:padding="15sp"
+                android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/optionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            tools:text="Poty"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:padding="15sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/optionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            tools:text="Poty"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:padding="15sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/optionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            tools:text="Poty"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:padding="15sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/submit_button_background"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
